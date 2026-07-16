@@ -1,0 +1,9 @@
+{
+  "name": "段落标题",
+  "author": "r-markdown",
+  "category": "标题",
+  "subCategory": "",
+  "description": "文字下方的线条长度和颜色需要根据文字长度自行调整",
+  "date": "2026-07-16",
+  "content": "<stack width=\"750px\" height=\"30px\">\n<positioned top=\"0\" left=\"0\" width=\"100%\" height=\"100%\" z-index=\"1\">\n<container padding=\"0px\" margin=\"0 0 20px\" border-style=\"none\" radius=\"0px\" align=\"start-start\">\n<text size=\"18px\" weight=\"600\">一、我是一个自定义的段落标题</text>\n</container>\n</positioned>\n\n<positioned top=\"15px\" left=\"5px\" width=\"90%\" z-index=\"0\">\n<container width=\"240px\" height=\"10px\" padding=\"0px\" margin=\"0px\" bg=\"#fbc709\" border-style=\"none\" radius=\"8px\" rotate=\"-2deg\" align=\"start-start\"></container>\n</positioned>\n</stack>"
+}
