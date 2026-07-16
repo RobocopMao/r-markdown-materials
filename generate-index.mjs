@@ -44,7 +44,9 @@ async function main() {
         name: data.name || id,
         author: data.author || 'unknown',
         category: data.category || '未分类',
+        subCategory: data.subCategory || undefined,
         description: data.description || '',
+        date: data.date || '',
       })
     } catch (e) {
       console.warn(`跳过 ${filePath}: ${e.message}`)
