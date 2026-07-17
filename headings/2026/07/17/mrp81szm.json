@@ -1,0 +1,9 @@
+{
+  "name": "方形数字段落标题",
+  "author": "r-markdown",
+  "category": "标题",
+  "subCategory": "",
+  "description": "",
+  "date": "2026-07-17",
+  "content": "<p-title num=\"1\" title=\"简约段落标题\" level=\"3\" num-style=\"square\" margin=\"0\"></p-title>"
+}
