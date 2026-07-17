@@ -1,0 +1,9 @@
+{
+  "name": "竖线简约段落标题",
+  "author": "r-markdown",
+  "category": "标题",
+  "subCategory": "",
+  "description": "",
+  "date": "2026-07-17",
+  "content": "<p-title num title=\"简约段落标题\" level=\"3\" num-style=\"line\" margin=\"0\"></p-title>"
+}
