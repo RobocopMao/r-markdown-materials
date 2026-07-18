@@ -5,5 +5,5 @@
   "subCategory": "",
   "description": "",
   "date": "2026-07-17",
-  "content": "<p-title num title=\"简约段落标题\" level=\"3\" num-style=\"line\" margin=\"0\"></p-title>"
+  "content": "<p-title num title=\"简约段落标题\" level=\"3\" num-style=\"line\" margin=\"20px 0\"></p-title>"
 }
