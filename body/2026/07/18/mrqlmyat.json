@@ -1,0 +1,9 @@
+{
+  "name": "简约边框内容",
+  "author": "r-markdown",
+  "category": "正文",
+  "subCategory": "",
+  "description": "除了飞机，其他颜色都可以修改",
+  "date": "2026-07-18",
+  "content": "<!-- 素材开始 -->\n<container margin=\"20px 0\" border-style=\"solid\" border-width=\"2px\" border-color=\"#27ae60\" radius=\"8px\" direction=\"column\" extry-style=\"align-items:stretch\">\n  \n<container margin=\"-13px 0 0 30px\">\n<container width=\"8px\" height=\"25px\" padding=\"0px\" margin=\"0 10px\" bg=\"#27ae60\" border-style=\"none\" radius=\"10px\"></container>\n<container width=\"8px\" height=\"25px\" padding=\"0px\" margin=\"0px\" bg=\"#27ae60\" border-style=\"none\" radius=\"10px\"></container>\n</container>\n\n<container padding=\"10px 10px 0\">\n暮色漫过巷口，晚风携着草木清香缓缓漫来。梧桐叶轻轻摇晃，碎金似的霞光落在青石板上。行人放慢脚步，抛开白日的匆忙。远处炊烟淡淡，蝉鸣渐弱，天地间只剩温柔。不必追赶时光，静静站着，看流云游走，听风掠过耳畔，平凡细碎的温柔，便是人间最好的光景。\n</container>\n\n<container width=\"100%\" padding=\"0px\" margin=\"-45px 0 0\" border-style=\"none\" radius=\"0px\" align=\"end-end\">\n<img src=\"https://cdn.jsdelivr.net/gh/RobocopMao/r-markdown-images@main/r-markdown/2026/07/16/1784210401478.svg\" width=\"60px\" height=\"60px\" radius=\"8px\" fit=\"cover\" margin=\"0\" />\n</container>\n\n</container>\n<!-- 素材结束 -->"
+}
