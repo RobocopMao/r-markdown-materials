@@ -1,84 +1,12 @@
 [
-  {
-    "id": "body/2026/07/16/mrmxxkwg",
-    "name": "分割线",
-    "author": "r-markdown",
-    "category": "正文",
-    "subCategory": "分割线",
-    "description": "",
-    "date": "2026-07-16"
-  },
-  {
-    "id": "body/2026/07/16/mrnlz2d7",
-    "name": "波浪飞机分割线",
-    "author": "r-markdown",
-    "category": "正文",
-    "subCategory": "分割线",
-    "description": "波浪线可以修改样色、粗细，飞机无法修改",
-    "date": "2026-07-16"
-  },
-  {
-    "id": "cta/2026/07/16/mrmxy99h",
-    "name": "底部引导",
-    "author": "r-markdown",
-    "category": "引导",
-    "description": "",
-    "date": "2026-07-16"
-  },
-  {
-    "id": "cta/2026/07/18/mrq9hzxk",
-    "name": "头部关注",
-    "author": "r-markdown",
-    "category": "引导",
-    "description": "所有颜色可自己调整",
-    "date": "2026-07-18"
-  },
-  {
-    "id": "cta/2026/07/18/mrqbsixw",
-    "name": "底部关注",
-    "author": "r-markdown",
-    "category": "引导",
-    "description": "可修改头像图片以及颜色",
-    "date": "2026-07-18"
-  },
-  {
-    "id": "headings/2026/07/16/mrn65qwb",
-    "name": "简约清新主副标题",
-    "author": "r-markdown",
-    "category": "标题",
-    "description": "颜色可以搜索后整体替换",
-    "date": "2026-07-16"
-  },
-  {
-    "id": "headings/2026/07/16/mrn7xs9k",
-    "name": "简约段落标题",
-    "author": "r-markdown",
-    "category": "标题",
-    "description": "文字下方的线条长度和颜色需要根据文字长度自行调整",
-    "date": "2026-07-16"
-  },
-  {
-    "id": "headings/2026/07/17/mrp1nu23",
-    "name": "竖线简约段落标题",
-    "author": "r-markdown",
-    "category": "标题",
-    "description": "",
-    "date": "2026-07-17"
-  },
-  {
-    "id": "headings/2026/07/17/mrp3jan4",
-    "name": "圆形数字段落标题",
-    "author": "r-markdown",
-    "category": "标题",
-    "description": "",
-    "date": "2026-07-17"
-  },
-  {
-    "id": "headings/2026/07/17/mrp81szm",
-    "name": "方形数字段落标题",
-    "author": "r-markdown",
-    "category": "标题",
-    "description": "",
-    "date": "2026-07-17"
-  }
+  "body/2026/07/16/mrmxxkwg",
+  "body/2026/07/16/mrnlz2d7",
+  "cta/2026/07/16/mrmxy99h",
+  "cta/2026/07/18/mrq9hzxk",
+  "cta/2026/07/18/mrqbsixw",
+  "headings/2026/07/16/mrn65qwb",
+  "headings/2026/07/16/mrn7xs9k",
+  "headings/2026/07/17/mrp1nu23",
+  "headings/2026/07/17/mrp3jan4",
+  "headings/2026/07/17/mrp81szm"
 ]

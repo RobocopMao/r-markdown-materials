@@ -3,8 +3,8 @@
  * 用法：node scripts/generate-index.mjs
  */
 
-import { readdir, readFile, writeFile, stat } from 'node:fs/promises'
-import { join, extname, basename } from 'node:path'
+import { readdir, writeFile } from 'node:fs/promises'
+import { join, extname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const __dirname = fileURLToPath(new URL('.', import.meta.url))
@@ -29,38 +29,28 @@ async function* walk(dir) {
 }
 
 async function main() {
-  const materials = []
+  const ids = []
 
   for await (const filePath of walk(ROOT)) {
     try {
-      const raw = await readFile(filePath, 'utf-8')
-      const data = JSON.parse(raw)
       // 用文件路径推导 id（去掉根目录前缀和 .json 后缀）
       const id = filePath
         .replace(ROOT + '/', '')
         .replace(/\.json$/, '')
-      materials.push({
-        id,
-        name: data.name || id,
-        author: data.author || 'unknown',
-        category: data.category || '未分类',
-        subCategory: data.subCategory || undefined,
-        description: data.description || '',
-        date: data.date || '',
-      })
+      ids.push(id)
     } catch (e) {
       console.warn(`跳过 ${filePath}: ${e.message}`)
     }
   }
 
-  materials.sort((a, b) => a.id.localeCompare(b.id))
+  ids.sort()
 
   await writeFile(
     join(ROOT, 'index.json'),
-    JSON.stringify(materials, null, 2) + '\n',
+    JSON.stringify(ids, null, 2) + '\n',
     'utf-8'
   )
-  console.log(`index.json 已生成，共 ${materials.length} 条素材索引`)
+  console.log(`index.json 已生成，共 ${ids.length} 条素材索引`)
 }
 
 main().catch(console.error)
