@@ -1,0 +1,9 @@
+{
+  "name": "底部关注",
+  "author": "r-markdown",
+  "category": "引导",
+  "subCategory": "",
+  "description": "可修改头像图片以及颜色",
+  "date": "2026-07-18",
+  "content": "<!-- 素材开始 -->\n<stack width=\"750px\" height=\"85px\">\n<positioned top=\"0\" left=\"5px\" width=\"85px\" height=\"85px\" z-index=\"1\">\n<container width=\"85px\" height=\"85px\" padding=\"0px\" margin=\"0px\" radius=\"50%\"  align=\"center-center\" extra-style=\"border: 5px solid rgb(39, 174, 96, 0.3) !important\">\n<container width=\"75px\" height=\"75px\" padding=\"0px\" margin=\"0px\" radius=\"50%\"  align=\"center-center\" extra-style=\"border: 5px solid rgb(39, 174, 96, 0.6) !important\">\n<container width=\"65px\" height=\"65px\" padding=\"0px\" margin=\"0px\" border-style=\"none\" radius=\"50%\" align=\"center-center\" extra-style=\"border: 5px solid rgb(39, 174, 96) !important\">\n<img src=\"https://cdn.jsdelivr.net/gh/RobocopMao/r-markdown-images@main/r-markdown/2026/07/18/1784373441586.jpg\" width=\"55px\" height=\"55px\" radius=\"50%\" fit=\"cover\" align=\"center\" top=\"0px\" margin=\"0\" />\n</container>\n</container>\n</container>\n</positioned>\n\n<positioned top=\"15px\" left=\"10px\" width=\"95%\" z-index=\"0\">\n<container width=\"\" height=\"55px\" padding=\"0px\" margin=\"0px 5px 0 20px\" bg=\"rgb(39, 174, 96, 0.1) \" border-style=\"solid\" border-width=\"4px\" border-color=\"#27ae60\" radius=\"50px\" direction=\"row\" align=\"center-center\" extra-style=\"flex-grow:1\">\n<text margin=\"0 0 0 40px\">点击下方头像</text>\n<text color=\"#27ae60\" weight=\"900\">「关注」</text>\n<text>追更不迷路</text>\n</conatiner>\n</positioned>\n</stack>\n<!-- 素材结束 -->"
+}
