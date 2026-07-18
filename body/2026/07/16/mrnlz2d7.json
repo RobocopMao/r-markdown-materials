@@ -3,7 +3,7 @@
   "author": "r-markdown",
   "category": "正文",
   "subCategory": "分割线",
-  "description": "波浪线可以修改样色、粗细，飞机无法修改",
+  "description": "波浪线可以修改颜色、粗细，飞机无法修改",
   "date": "2026-07-16",
   "content": "<!-- 素材开始 -->\n<html>\n<section style=\"display:flex\">\n<section style=\"overflow:hidden;width:100%;display:flex;align-items:center\">\n  <svg viewBox=\"0 0 1600 40\" xmlns=\"http://www.w3.org/2000/svg\" style=\"width:200%\">\n    <path d=\"M0,20 Q25,4 50,20 T100,20 T150,20 T200,20 T250,20 T300,20 T350,20 T400,20\n             T450,20 T500,20 T550,20 T600,20 T650,20 T700,20 T750,20 T800,20\n             T850,20 T900,20 T950,20 T1000,20 T1050,20 T1100,20 T1150,20 T1200,20\n             T1250,20 T1300,20 T1350,20 T1400,20 T1450,20 T1500,20 T1550,20 T1600,20\n             T1650,20 T1700,20 T1750,20 T1800,20 T1850,20 T1900,20 T1950,20 T2000,20\n             T2050,20 T2100,20 T2150,20 T2200,20 T2250,20 T2300,20 T2350,20 T2400,20\n             T2450,20 T2500,20 T2550,20 T2600,20 T2650,20 T2700,20 T2750,20 T2800,20\n             T2850,20 T2900,20 T2950,20 T3000,20 T3050,20 T3100,20 T3150,20 T3200,20\"\n      fill=\"none\" stroke=\"#49CAB9\" stroke-width=\"4\" stroke-linecap=\"round\">\n      <animateTransform attributeName=\"transform\" type=\"translate\"\n        from=\"0 0\" to=\"-800 0\" dur=\"3s\" repeatCount=\"indefinite\"/>\n    </path>\n  </svg>\n</section>\n\n<img src=\"https://cdn.jsdelivr.net/gh/RobocopMao/r-markdown-images@main/r-markdown/2026/07/16/1784210401478.svg\" width=\"50px\" height=\"auto\" radius=\"8px\" fit=\"cover\" />\n</section>\n</html>\n<!-- 素材结束 -->"
 }
