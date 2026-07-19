@@ -1,0 +1,9 @@
+{
+  "name": "波浪飞机分割线",
+  "author": "r-markdown",
+  "category": "正文",
+  "subCategory": "分割线",
+  "description": "",
+  "date": "2026-07-19",
+  "content": "<!-- 素材开始 -->\n<html>\n<section style=\"display:flex;align-item:center\">\n<section style=\"overflow:hidden;width:100%;display:flex;align-items:center\">\n<img src=\"https://cdn.jsdelivr.net/gh/RobocopMao/r-markdown-images@main/r-markdown/2026/07/19/1784466701230.svg\" />\n</section>\n<section style=\"width:50px;height:50px;flex-shrink:0\">\n<img src=\"https://cdn.jsdelivr.net/gh/RobocopMao/r-markdown-images@main/r-markdown/2026/07/16/1784210401478.svg\" />\n</section>\n</section>\n</html>\n<!-- 素材结束 -->"
+}
