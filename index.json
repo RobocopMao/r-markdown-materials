@@ -1,15 +1,54 @@
 [
-  "body/2026/07/16/mrmxxkwg",
-  "body/2026/07/18/mrqlmyat",
-  "body/2026/07/19/mrrukcsr",
-  "body/2026/07/24/mrycsxqi",
-  "cta/2026/07/16/mrmxy99h",
-  "cta/2026/07/18/mrq9hzxk",
-  "cta/2026/07/18/mrqbsixw",
-  "headings/2026/07/16/mrn65qwb",
-  "headings/2026/07/16/mrn7xs9k",
-  "headings/2026/07/17/mrp1nu23",
-  "headings/2026/07/17/mrp3jan4",
-  "headings/2026/07/17/mrp81szm",
-  "headings/2026/07/23/mrx8xnq6"
+  {
+    "id": "body/2026/07/16/mrmxxkwg",
+    "name": "分割线"
+  },
+  {
+    "id": "body/2026/07/18/mrqlmyat",
+    "name": "简约边框内容"
+  },
+  {
+    "id": "body/2026/07/19/mrrukcsr",
+    "name": "波浪飞机分割线"
+  },
+  {
+    "id": "body/2026/07/24/mrycsxqi",
+    "name": "简约双线条分割线"
+  },
+  {
+    "id": "cta/2026/07/16/mrmxy99h",
+    "name": "底部引导"
+  },
+  {
+    "id": "cta/2026/07/18/mrq9hzxk",
+    "name": "头部关注"
+  },
+  {
+    "id": "cta/2026/07/18/mrqbsixw",
+    "name": "底部关注"
+  },
+  {
+    "id": "headings/2026/07/16/mrn65qwb",
+    "name": "简约清新主副标题"
+  },
+  {
+    "id": "headings/2026/07/16/mrn7xs9k",
+    "name": "简约段落标题"
+  },
+  {
+    "id": "headings/2026/07/17/mrp1nu23",
+    "name": "竖线简约段落标题"
+  },
+  {
+    "id": "headings/2026/07/17/mrp3jan4",
+    "name": "圆形数字段落标题"
+  },
+  {
+    "id": "headings/2026/07/17/mrp81szm",
+    "name": "方形数字段落标题"
+  },
+  {
+    "id": "headings/2026/07/23/mrx8xnq6",
+    "name": "简约居中标题"
+  }
 ]
