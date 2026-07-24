@@ -1,0 +1,9 @@
+{
+  "name": "简约双线条分割线",
+  "author": "r-markdown",
+  "category": "正文",
+  "subCategory": "分割线",
+  "description": "颜色可修改",
+  "date": "2026-07-24",
+  "content": "<!-- 素材开始 -->\n<container direction=\"column\" margin=\"20px 0\">\n<container width=\"100%\" margin=\"0 0 -13px 0\" direction=\"column\" align=\"end-end\">\n<container width=\"20px\" height=\"20px\" bg=\"#f4b710\" radius=\"50%\" translate=\"-20px,10px\"></container>\n<container width=\"15px\" height=\"15px\" bg=\"#abee1b\" radius=\"50%\"></container>\n<container width=\"10px\" height=\"10px\" bg=\"#2ee5d9\" radius=\"50%\" translate=\"-15px\"></container>\n</container>\n\n<container width=\"90%\" height=\"5px\" radius=\"4px 10px 10px 4px\" rotate=\"1deg\" extra-style=\"background: linear-gradient(to right, rgba(192, 245, 188, 1), rgba(192, 245, 188, 0.3));\"></container>\n\n<container width=\"90%\" height=\"5px\" margin=\"6px 0 0 10%\" radius=\"4px 10px 10px 4px\" rotate=\"1deg\" extra-style=\"background: linear-gradient(to right, rgba(20, 130, 70, 1), rgba(39, 174, 96, 0.1));\"></container>\n</container>\n<!-- 素材结束 -->"
+}
