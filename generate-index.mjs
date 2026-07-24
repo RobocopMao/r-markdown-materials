@@ -35,10 +35,10 @@ async function main() {
     try {
       // 用文件路径推导 id（去掉根目录前缀和 .json 后缀）
       const id = relative(ROOT, filePath).replace(/\.json$/, '')
-      // 读取素材 JSON 提取 name 字段，使搜索可在加载前按名称筛选
+      // 读取素材 JSON 提取 name、category 字段，使搜索和分类筛选可在加载前生效
       const raw = await readFile(filePath, 'utf-8')
       const data = JSON.parse(raw)
-      entries.push({ id, name: data.name || id })
+      entries.push({ id, name: data.name || id, category: data.category || '' })
     } catch (e) {
       console.warn(`跳过 ${filePath}: ${e.message}`)
     }
