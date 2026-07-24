@@ -44,7 +44,18 @@ async function main() {
     }
   }
 
-  entries.sort((a, b) => a.id.localeCompare(b.id))
+  // 按 id 中的日期倒序排列，最新上传排在最前
+  // id 格式为 category/yyyy/mm/dd/xxx，先从 id 中提取日期部分作为排序键
+  const extractDate = (id) => {
+    const m = id.match(/(\d{4}\/\d{2}\/\d{2})/)
+    return m ? m[1] : ''
+  }
+  entries.sort((a, b) => {
+    const dateA = extractDate(a.id)
+    const dateB = extractDate(b.id)
+    if (dateA !== dateB) return dateB.localeCompare(dateA) // 日期倒序
+    return b.id.localeCompare(a.id) // 同一天按完整 id 倒序兜底
+  })
 
   await writeFile(
     join(ROOT, 'index.json'),
