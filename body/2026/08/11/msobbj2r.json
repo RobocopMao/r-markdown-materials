@@ -1,0 +1,9 @@
+{
+  "name": "有色分割线",
+  "author": "r-markdown",
+  "category": "正文",
+  "subCategory": "分割线",
+  "description": "颜色可修改",
+  "date": "2026-08-11",
+  "content": "<!-- 素材开始 -->\n<html>\n<section data-source-line=\"49\" style=\"border:none;height:1px;background:linear-gradient(90deg,transparent,#27ae60,transparent);margin:24px 0px\"></section>\n</html>\n<!-- 素材结束 -->"
+}
